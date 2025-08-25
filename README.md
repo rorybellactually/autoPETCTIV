@@ -118,7 +118,7 @@ Pre-simulated clicks for the entire FDG+PSMA training database can be found in `
 Pre-simulated clicks for the entire longitudinal CT training database are bundled with the database release.
 
 ## Evaluation metrics
-Evaluation code for the autoPET/CT IV challenge according to [here](https://autopet-iv.grand-challenge.org/evaluation-and-ranking/) can be found in: `evaluation_metrics/evaluation_metrics.py`
+Evaluation code for the autoPET/CT IV challenge according to [here](https://autopet-iv.grand-challenge.org/evaluation-and-ranking/) can be found in: `evaluation_metrics`
 
 ## LaTeX template
 [Template for short paper](https://autopet-iv.grand-challenge.org/challenge-publication/) of final algorithm submission in [here](/publication_template/) 

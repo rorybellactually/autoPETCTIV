@@ -219,11 +219,11 @@ if __name__ == "__main__":
     #   |-- ...
     
     # complete test cohort: 
-    #   - non-interactive:  python evaluation_metrics.py -c -gt_path /path/to/gt/labels -prediction_path /path/to/pred/labels
-    #   - interactive:      python evaluation_metrics.py -c -gt_path /path/to/gt/labels -prediction_path /path/to/pred/labels -n_clicks 11
+    #   - non-interactive:  python evaluation_metrics_task1.py -c -gt_path /path/to/gt/labels -prediction_path /path/to/pred/labels
+    #   - interactive:      python evaluation_metrics_task1.py -c -gt_path /path/to/gt/labels -prediction_path /path/to/pred/labels -n_clicks 11
     # single test case:     
-    #   - non-interactive:  python evaluation_metrics.py -gt_path /path/to/gt/labels/test_case_1 -prediction_path /path/to/pred/labels/test_case_1
-    #   - interactive:      python evaluation_metrics.py -gt_path /path/to/gt/labels/test_case_1.nii.gz -prediction_path /path/to/pred/labels/test_case_1.nii.gz -n_clicks 11
+    #   - non-interactive:  python evaluation_metrics_task1.py -gt_path /path/to/gt/labels/test_case_1 -prediction_path /path/to/pred/labels/test_case_1
+    #   - interactive:      python evaluation_metrics_task1.py -gt_path /path/to/gt/labels/test_case_1.nii.gz -prediction_path /path/to/pred/labels/test_case_1.nii.gz -n_clicks 11
     # single file:
 
     gt_folder_path = args.gt_path
