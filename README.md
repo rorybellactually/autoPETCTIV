@@ -117,6 +117,13 @@ Pre-simulated clicks for the entire FDG+PSMA training database can be found in `
 ### Task 2: Longitudinal CT
 Pre-simulated clicks for the entire longitudinal CT training database are bundled with the database release.
 
+## Data pre-processing
+### Task 1
+Please refer to [github.com/lab-midas/autoPET](https://github.com/lab-midas/autoPET)
+
+### Task 2
+Data pre-processing (defacing) is documented in ```./data/CT_defacing.py```
+
 ## Evaluation metrics
 Evaluation code for the autoPET/CT IV challenge according to [here](https://autopet-iv.grand-challenge.org/evaluation-and-ranking/) can be found in: `evaluation_metrics/evaluation_metrics.py`
 
