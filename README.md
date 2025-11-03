@@ -125,7 +125,7 @@ Please refer to [github.com/lab-midas/autoPET](https://github.com/lab-midas/auto
 Data pre-processing (defacing) is documented in ```./data/CT_defacing.py```
 
 ## Evaluation metrics
-Evaluation code for the autoPET/CT IV challenge according to [here](https://autopet-iv.grand-challenge.org/evaluation-and-ranking/) can be found in: `evaluation_metrics/evaluation_metrics.py`
+Evaluation code for the autoPET/CT IV challenge according to [here](https://autopet-iv.grand-challenge.org/evaluation-and-ranking/) can be found in: `evaluation_metrics`
 
 ## LaTeX template
 [Template for short paper](https://autopet-iv.grand-challenge.org/challenge-publication/) of final algorithm submission in [here](/publication_template/) 
